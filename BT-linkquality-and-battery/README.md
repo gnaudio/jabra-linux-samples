@@ -3,7 +3,7 @@ This code sample uses the Jabra Linux SDK to get link quality and battery update
 For more information in general on the Jabra Linux SDK please visit the [Jabra Developer Zone](https://developer.jabra.com/site/global/sdk/linux/index.gsp)
 
 ## How to build and run the code sample
-Before trying to build the project in Visual Studio Code you need to create 2 symbolic links to the libjabra.so.1.12.2.0 files:
+Before trying to build the project in Visual Studio Code you need to create 2 symbolic links to the libjabra.so.1.12.2.0 file:
 ```
 ln -s libjabra.so.1.12.2.0 libjabra.so.1
 ln -s libjabra.so.1.12.2.0 libjabra.so
@@ -20,7 +20,7 @@ After creating the udev file (as root), reload the udev rules using:
 ```
 sudo udevadm control --reload
 ```
-Reattach your Jabra device it order to get new permissions assigned.
+Reattach your Jabra device in order to get new permissions assigned.
 
 Now re-launch VS Code, select the .cpp file and it should compile and debug correctly. 
 
