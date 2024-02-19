@@ -21,3 +21,8 @@ After creating the udev file (as root), reload the udev rules using:
 sudo udevadm control --reload
 ```
 Reattach your Jabra device it order to get new permissions assigned.
+
+Now re-launch VS Code, select the .cpp file and it should compile and debug correctly. 
+
+## Questions and requests for support
+While we do invite for collaboration on the code samples from the community here (please do make a pull-request if you want to help improve it), questions are best asked at the Jabra Developer Zone by opening a ticket there: [Jabra Developer Zone support](https://developer.jabra.com/site/global/support/index.gsp)
