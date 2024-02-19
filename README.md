@@ -1,2 +1,2 @@
 # samples-linux
-Linux C++ sample code for integration with Jabra devices
+Linux C++ code samples for integration with Jabra devices. Please see https://developer.jabra.com/site/global/sdk/linux/index.gsp for more information about the Jabra SDK for Linux. 
