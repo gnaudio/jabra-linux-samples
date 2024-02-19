@@ -1,0 +1,1 @@
+# BT link quality and battery sample for Jabra Link 380 and connected headsets
