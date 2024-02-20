@@ -24,7 +24,7 @@ Reattach your Jabra device in order to get new permissions assigned.
 
 Now re-launch VS Code, select the .cpp file and it should compile and debug correctly. 
 
-If you want to execute the compiled binary directly (one build for x86 is included with the source), you need to make sure ld can locate the Jabra SDK by setting the `LD_LIBRARY_PATH` env variable to the directory containing the SDK before executing the binary, i.e. something like: 
+If you want to execute the compiled binary directly (one build for AMD64 is included with the source), you need to make sure ld can locate the Jabra SDK by setting the `LD_LIBRARY_PATH` env variable to the directory containing the SDK before executing the binary, i.e. something like: 
 ```
 LD_LIBRARY_PATH=. ./JabraBTlinkqualityBattery
 ```
